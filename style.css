@@ -1,0 +1,398 @@
+/* * {
+    box-sizing: border-box;
+  } */
+  
+/* html{
+    height: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+    width: 100%; 
+} */
+  
+body{
+    font-family: 'Roboto', Helvetica, sans-serif;
+    background: #577581;  
+}
+
+.header {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    margin-left: 2%;
+}
+
+.logo {
+    width: 130px;
+}
+
+.container {
+    display:flex;
+    flex-direction: row;
+    align-items: center; 
+}
+
+.item {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.up {
+    color: white;
+    font-weight: 700;
+    font-size: 16px; 
+    text-decoration-line: none; 
+}
+
+#us, .us {
+    color:orangered;
+    width: 14%;  
+    text-decoration-line: none; 
+}
+
+#submit, .down {
+    position:relative;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;   
+}
+
+.login {  
+    width: 14%;
+    margin-top: -33px;  
+}
+
+.orange{
+    height: 30px;
+    width: 80px;
+    border-style: none;
+    border-radius: 3px;
+    background-color: rgb(255, 174, 52);
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+h1 {
+    color:white;
+    font-size: 47px;
+    font-weight: bold;
+}
+
+@media (min-width: 720px) {
+    h1 {
+        font-size: 53px;
+}}
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 60px;
+}}
+
+.title {
+    /* position:relative;
+    display:flex;
+    flex-direction: column;  */
+    /* justify-content: flex-start; */
+    margin-top: 70px;
+    
+}
+p {
+    color:white;
+    font-size: 15px;
+    line-height: 24px;
+    width: 482px;
+}
+
+@media (min-width: 415px) {
+    p {
+        width: 500px;
+}}
+
+.text {
+    position: relative;
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+
+
+
+#border {
+    width: 90%;
+    background-color: white; 
+    padding-top: 20px;
+    position: relative;
+    margin-top: 100px;
+    display:flex;
+    flex-direction: column; 
+    margin-left:5%;
+    border-radius: 10px;    
+}
+
+
+@media (min-width: 720px) {
+    #border{
+        flex-direction: row;
+}}
+
+input[type=text], input[type=email], .please, textarea{
+    height: 30px;
+    padding-left: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    opacity: 0.9;
+    margin-bottom: 10px; 
+    border-width: 0.1em;
+    border-radius: 3px;
+}
+
+.box-1, .box-2, .box-0, .box-0a{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding-left: 25px;
+    width: 92%;
+}
+@media (min-width: 720px) {
+.box-1, .box-2, .box-0a{ 
+    width: 180%;
+}}
+
+
+.box-0{
+    background-color:rgb(255, 53, 2);
+    width: 85%;
+    margin-left: 25px;
+    border-radius: 3px;
+    font-size: 16px;
+    color: white;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+    justify-content: start;
+}
+@media (min-width: 720px) {
+    .box-0{ 
+        width: 172%;
+    }}
+
+.box-0a{
+    font-size: 25px;
+    font-weight: bold;
+    opacity: 0.8;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+.box-1{
+    padding-bottom: 5px;
+    padding-top: 15px;
+    font-size: 12px;
+    font-weight: 700;
+    opacity: 0.9;
+}
+
+.please{
+    border-color: rgb(66, 128, 245);
+}
+
+.your{
+    border-color: rgb(255, 53, 2);
+}
+
+.email{
+    border-color: rgb(66, 128, 245);  
+}
+
+.issue, .details{
+    border-color: rgb(66, 128, 245);
+}
+
+.box-2a{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+
+@media (min-width: 720px) {
+    .box-2a{ 
+        width: 180%
+    }}
+
+
+.submit{
+    background-color: rgb(45, 189, 45);
+    border-style:none;
+    height: 50px;
+    color:white;
+    width: 180px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 18px;
+    text-decoration-line: none;
+    border-color: rgb(66, 128, 245);
+    border-width: 0.1em;
+    border-radius: 3px;
+}
+
+.footer{
+    width:100%;
+    position:relative;
+    display:flex;
+    flex-direction: row; 
+}
+
+.head, .karte, .adress{
+    padding-left: 25px;
+}
+
+@media (min-width: 720px) {
+    .head, .karte, .adress{ 
+        padding-left: 30%;
+    }}
+
+.head{
+    font-size: 16px;
+    font-weight: 200;
+    opacity: 0.9;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.karte{
+    width: 90%;
+    height: 220px;
+    margin-bottom: 15px;
+}
+
+@media (min-width: 720px) {
+    .karte{ height: 350px;  
+            width: 65%
+}}
+
+.adress{
+    margin-bottom: 20px;
+}
+
+strong{
+    font-weight: 700;
+}
+
+.footer{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+@media (min-width: 720px) {
+    .footer{ flex-direction: row;
+        justify-content: space-around;
+}}
+
+
+@media (min-width: 720px) {
+    .row-1, .row-2, .row-3, .row-4,{
+    display: flex;
+    flex-direction: row;
+
+}}
+
+
+.little{
+    width: 110px;
+}
+.copy{
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.support-1, 
+.support-2 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.end-1, 
+.end-2, 
+.little, 
+.copy{
+    margin-left: 40px;
+}
+
+.end{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px; 
+}
+
+.x{
+    color:black;
+    font-size: 17px;
+    text-decoration-line: none;
+    font-weight: 500;
+    opacity: 0.6;
+}
+
+.down{
+    margin-right: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  
+}
+
+.support-3{
+    font-weight: 700;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+@media (min-width: 1024px) {
+    .support-3 { margin-left: 0px;
+        
+}}
+
+.clix{
+    width: 100px;
+    position: relative;
+    height: 35px;
+    border-radius: 3px;
+    background-color: rgb(255, 174, 52);
+    color:white;
+    font-weight: 700;
+    font-size: 12px;
+    border-color: rgb(66, 128, 245);
+    border-width: 0.1em;  
+    margin-right: 15px; 
+}
+
+.details{
+    width: 270px;
+    padding-left: 10px;
+    margin-right: 10px; 
+
+}
+
+button[type=submit]{
+    height: 37px; 
+    border-style:none; 
+    border-color: rgb(66, 128, 245);
+    border-width: 0.1em; 
+    border-radius: 3px; 
+}
+
+input[class=details]{
+    height: 35px;
+    border-color: rgb(66, 128, 245);
+    border-width: 0.1em; 
+    border-radius: 3px;    
+}
